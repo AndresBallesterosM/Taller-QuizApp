@@ -95,7 +95,7 @@ La aplicación implementa un flujo de datos unidireccional:
 
 
 
-## 📸 Funcionamiento
+## Funcionamiento
 
 1. El usuario selecciona una respuesta
 2. Presiona **"Validar"**
