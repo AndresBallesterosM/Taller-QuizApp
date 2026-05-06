@@ -1,4 +1,4 @@
-# 📱 Quiz Interactivo - Android con Jetpack Compose
+# Quiz Interactivo - Android con Jetpack Compose
 
 **Asignatura:** Programación para Dispositivos Móviles
 **Universidad:** Universidad de Caldas
@@ -6,7 +6,7 @@
 **Unidad:** Interfaces de Usuario y Arquitectura MVVM
 
 
-## 🧠 Descripción del proyecto
+## Descripción del proyecto
 
 Este proyecto consiste en el desarrollo de una aplicación móvil tipo **quiz interactivo**, implementada en Android utilizando **Jetpack Compose** y siguiendo el patrón de arquitectura **MVVM (Model - View - ViewModel)**.
 
@@ -14,7 +14,7 @@ La aplicación permite a los usuarios responder preguntas de selección múltipl
 
 
 
-## 🎯 Objetivo
+## Objetivo
 
 Aplicar los conceptos de:
 
@@ -25,7 +25,7 @@ Aplicar los conceptos de:
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * **Kotlin**
 * **Jetpack Compose**
@@ -35,18 +35,18 @@ Aplicar los conceptos de:
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 El proyecto sigue el patrón **MVVM**, separando responsabilidades de la siguiente forma:
 
-### 📦 Model
+### Model
 
 Contiene las clases de datos:
 
 * `Question.kt`
 * `QuizUiState.kt`
 
-### 🧠 ViewModel
+### ViewModel
 
 Contiene la lógica del negocio:
 
@@ -60,7 +60,7 @@ Funciones principales:
 * Navegación entre preguntas
 * Reinicio del quiz
 
-### 🎨 View (UI)
+### View (UI)
 
 Interfaz construida con Compose:
 
@@ -69,7 +69,7 @@ Interfaz construida con Compose:
 
 
 
-## 🔄 Flujo de datos
+## Flujo de datos
 
 La aplicación implementa un flujo de datos unidireccional:
 
@@ -81,7 +81,7 @@ La aplicación implementa un flujo de datos unidireccional:
 
 
 
-## 📋 Funcionalidades implementadas
+## Funcionalidades implementadas
 
 * ✔ Mostrar preguntas una a una
 * ✔ Selección de respuesta única
@@ -106,7 +106,7 @@ La aplicación implementa un flujo de datos unidireccional:
 
 ---
 
-## 🧪 Pruebas realizadas
+## Pruebas realizadas
 
 * Rotación de pantalla (estado persistente)
 * Validación de respuestas correctas/incorrectas
@@ -115,7 +115,7 @@ La aplicación implementa un flujo de datos unidireccional:
 
 
 
-## 📌 Conclusiones
+## Conclusiones
 
 Este proyecto permitió aplicar de forma práctica los conceptos de arquitectura moderna en Android, especialmente el manejo de estado con `StateFlow` y la separación de responsabilidades mediante MVVM.
 
@@ -123,7 +123,7 @@ Jetpack Compose facilitó la construcción de interfaces dinámicas y reactivas,
 
 
 
-## 🚀 Posibles mejoras
+## Posibles mejoras
 
 * Agregar temporizador por pregunta
 * Mejorar diseño visual (colores, animaciones)
@@ -132,7 +132,7 @@ Jetpack Compose facilitó la construcción de interfaces dinámicas y reactivas,
 
 
 
-## 👨‍💻 Autor
+## Autor
 
 Carlos Andrés Ballesteros Muñoz
 Universidad de Caldas
